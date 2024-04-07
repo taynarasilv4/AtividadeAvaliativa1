@@ -2,7 +2,7 @@
     margin:0px;
 }
 body{
-    background-color: rgb(210, 244, 176);
+    background-color: rgb(249, 249, 249);
 }
 header{
     background-color: mediumseagreen;
@@ -26,15 +26,15 @@ nav ul li a{
 #imagemLogo{
     width: 4%;
     height: 45px;
-    margin-left: 110px;
+    margin-left: 130px;
     margin-top:2px;
 }
 #imgEu{
-   width:15%;
-   height:400px;
+   width:16%;
+   height:390px;
    border-radius:10px;
-   margin-left:90px;
-   margin-top: 24px;
+   margin-left:120px;
+   margin-top: 26px;
 }
 #Centro{
    display: flex;
@@ -42,30 +42,132 @@ nav ul li a{
 }
 #quadroUm{
     background-color: white;
-    width:10%;
-    height:150px;
+    width: 160px;
+    height:195px;
     margin-left:150px;
+    margin-top:30px;
 }
 #quadroDois{
     background-color: white;
-    width:10%;
-    height:150px;
+    width:160px;
+    height:195px;
     margin-left:100px;
+    margin-top:30px;
 }
 #CentroQuadros{
     display: flex;
 }
-#A{
-    width:30px;
+#lupa{
+    margin-top:5px;
+    width:95px;
+    margin-left:23px;
+    margin-bottom:5px;
 }
-#B{
-    width:200px;
-    height: 60%;
+#computador{
+    margin-top:5px;
+    width:160px;
+    height: 30%;
 }
 #letraCima{
     margin-top:14px;
+    font-weight:bold;
+    font-size:17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right:55px;
 }
+    
 #Eu{
     margin-left: 30px;
     margin-top: 30px;
+}
+.Negrito{
+    font-size:14px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:5px;
+}
+p{
+    margin-left:5px;
+    margin-bottom: 3px;
+}
+input[type = submit]{
+    background-color: black;
+    color:white;
+    width:160px;
+    height:25px;
+}
+#submit1{
+    padding-left:10px;
+    width:160px;
+    height:25px ;
+    margin-top:21px;
+}
+input[type = envio]{
+    background-color: black;
+    color:white;
+    border-radius:5px;
+    border: none;
+    width:40px;
+    height:22px;
+    margin-left:553px;
+    padding-left:7px;
+    margin-top:13px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#CentroContato{
+    margin-left:420px;
+    margin-top:20px;
+}
+.Cinza{
+    margin-top:10px;
+    color: rgb(138, 139, 137);
+    margin-bottom:5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Cinzaa{
+    margin-top:10px;
+    color: rgb(138, 139, 137);
+    margin-bottom:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.letra{
+    font-size:15px;
+}
+input[type = email], [type = text]{
+    width:600px;
+    height:22px;
+    border-radius:5px;
+    border-color: rgb(138, 139, 137);
+}
+textarea{
+    width:600px;
+    height: 110px;
+    border-radius:5px;
+}
+.Tamanho{
+  margin-bottom:20px;
+  margin-top:7px;
+  font-size: 25px;
+  margin-left:8px;
+}
+.paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-bottom:20px;
+    color:rgb(138, 139, 137);
+}
+.Separa{
+    margin-right: 23px;
+}
+#espaco{
+    margin-top:30px;
+}
+#contato{
+    margin-bottom:22px;
+    margin-left:3px;
+    font-size:30px;
+    
 }
